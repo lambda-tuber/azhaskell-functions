@@ -1,0 +1,19 @@
+openapi: '3.1.0'
+
+info:
+  title: 'CustomHandlerIF'
+  version: '1.0.0'
+
+paths:
+  '/healthcheck':
+    get:
+      responses:
+        '200':
+          description: 'OK'
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "200 OK"
+
+
