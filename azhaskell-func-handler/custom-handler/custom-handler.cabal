@@ -68,8 +68,31 @@ executable custom-handler
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.18.1.0,
-                      customhandlerif
+    build-depends:    base ^>=4.18.1.0
+                    , customhandlerif
+                    , aeson
+                    , text
+                    , containers
+                    , exceptions
+                    , network-uri
+                    , servant
+                    , http-api-data
+                    , servant
+                    , servant-client
+                    , servant-client-core
+                    , servant-server
+                    , servant
+                    , wai
+                    , wai-extra
+                    , warp
+                    , transformers
+                    , mtl
+                    , time
+                    , http-client
+                    , http-client-tls
+                    , http-types
+                    , swagger2
+                    , uuid
 
     -- Directories containing source files.
     hs-source-dirs:   app
