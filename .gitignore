@@ -1,0 +1,6 @@
+azhaskell-func-handler/.cache/*
+azhaskell-func-handler/.config/*
+azhaskell-func-handler/.local/*
+azhaskell-func-handler/custom-handler/.vscode/*
+azhaskell-func-handler/custom-handler/dist-newstyle/*
+azhaskell-func-handler/custom-handler/cabal.project.local~*
