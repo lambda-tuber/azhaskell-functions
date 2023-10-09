@@ -124,6 +124,7 @@ formatSeparatedQueryList char = T.intercalate (T.singleton char) . map toQueryPa
 -- | Servant type-level API, generated from the OpenAPI spec for CustomHandlerIF.
 type CustomHandlerIFAPI
     =    "healthcheck" :> Verb 'GET 200 '[JSON] Text -- 'healthcheckGet' route
+    :<|> "hello" :> Verb 'POST 200 '[JSON] Value -- 'helloPost' route
     :<|> Raw
 
 
@@ -145,6 +146,7 @@ newtype CustomHandlerIFClientError = CustomHandlerIFClientError ClientError
 -- a backend, the API can be served using @runCustomHandlerIFMiddlewareServer@.
 data CustomHandlerIFBackend m = CustomHandlerIFBackend
   { healthcheckGet :: m Text{- ^  -}
+  , helloPost :: m Value{- ^  -}
   }
 
 
@@ -170,6 +172,7 @@ createCustomHandlerIFClient :: CustomHandlerIFBackend CustomHandlerIFClient
 createCustomHandlerIFClient = CustomHandlerIFBackend{..}
   where
     ((coerce -> healthcheckGet) :<|>
+     (coerce -> helloPost) :<|>
      _) = client (Proxy :: Proxy CustomHandlerIFAPI)
 
 -- | Run requests in the CustomHandlerIFClient monad.
@@ -225,6 +228,7 @@ serverWaiApplicationCustomHandlerIF backend = serveWithContextT (Proxy :: Proxy 
     context = serverContext
     serverFromBackend CustomHandlerIFBackend{..} =
       (coerce healthcheckGet :<|>
+       coerce helloPost :<|>
        serveDirectoryFileServer "static")
 
 

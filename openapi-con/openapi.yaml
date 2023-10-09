@@ -16,4 +16,14 @@ paths:
                 type: string
                 example: "200 OK"
 
+  '/hello':
+    post:
+      responses:
+        '200':
+          description: 'OK'
+          content:
+            application/json:
+              schema:
+                type: object
+                example: "200 OK"
 

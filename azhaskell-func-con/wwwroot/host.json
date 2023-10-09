@@ -14,8 +14,8 @@
   },
   "customHandler": {
     "description": {
-      "defaultExecutablePath": "azhaskell-func-handler",
-      "workingDirectory": "",
+      "defaultExecutablePath": "/home/site/wwwroot/custom-handler",
+      "workingDirectory": "/home/site/wwwroot",
       "arguments": []
     }
   }
