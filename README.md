@@ -16,3 +16,18 @@ HaskellでAzure Functionsを実装するための開発環境の説明。
 ### ◇動画
 [![azhaskell-functions](http://img.youtube.com/vi/0pxzfKwC3Z4/0.jpg)](https://youtu.be/0pxzfKwC3Z4)
 
+## 第3回
+### ◇概要
+Dockerコンテナの準備。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/tGBqIZIET9A/0.jpg)](https://youtu.be/tGBqIZIET9A)
+
+
+## 第4回
+### ◇概要
+Custom Containerの準備。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/CdUiaV5rSjc/0.jpg)](https://youtu.be/CdUiaV5rSjc)
+
