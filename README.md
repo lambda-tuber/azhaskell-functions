@@ -31,3 +31,41 @@ Custom Containerの準備。
 ### ◇動画
 [![azhaskell-functions](http://img.youtube.com/vi/CdUiaV5rSjc/0.jpg)](https://youtu.be/CdUiaV5rSjc)
 
+## 第5回
+### ◇概要
+Custom Containerの準備。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/CdUiaV5rSjc/0.jpg)](https://youtu.be/CdUiaV5rSjc)
+
+
+## 第6回
+### ◇概要
+Haskell環境コンテナの準備。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/d3bjQnRxRc4/0.jpg)](https://youtu.be/d3bjQnRxRc4)
+
+
+## 第7回
+### ◇概要
+Haskellアプリ開発の準備。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/gqZppz0eveg/0.jpg)](https://youtu.be/gqZppz0eveg)
+
+
+## 第8回
+### ◇概要
+OpenAPIの組み込み。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/z_RnCjZnffI/0.jpg)](https://youtu.be/z_RnCjZnffI)
+
+
+## 第9回
+### ◇概要
+Haskell ServantでWEBアプリ作成。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/_xfseseGFiQ/0.jpg)](https://youtu.be/_xfseseGFiQ)
