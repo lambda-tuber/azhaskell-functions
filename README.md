@@ -69,3 +69,19 @@ Haskell ServantでWEBアプリ作成。
 
 ### ◇動画
 [![azhaskell-functions](http://img.youtube.com/vi/_xfseseGFiQ/0.jpg)](https://youtu.be/_xfseseGFiQ)
+
+
+## 第10回
+### ◇概要
+Haskellデバッガ環境の準備。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/gkUxk_F8G1c/0.jpg)](https://youtu.be/gkUxk_F8G1c)
+
+
+## 第11回
+### ◇概要
+Haskellによるカスタムコンテナの構築。
+
+### ◇動画
+[![azhaskell-functions](http://img.youtube.com/vi/eDBxJySnwSs/0.jpg)](https://youtu.be/eDBxJySnwSs)
